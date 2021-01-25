@@ -48,7 +48,8 @@ export const AuthCard = styled(Card)`
   & > div {
     margin-bottom: ${(props) => props.theme.spaces[14]}px;
   }
-  & > div:last-child,& > div:empty {
+  & > div:last-child,
+  & > div:empty {
     margin-bottom: 0;
   }
 `;
